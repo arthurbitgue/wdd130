@@ -148,7 +148,7 @@ nav {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .home-grid {
     display: grid;
@@ -182,6 +182,64 @@ nav {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
+
+/* This is for the subpage river.html */
+.river-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 100px;
+    margin: 100px 0 0 0;
+}
+
+.river-title {
+    color: white;
+    font-family: "Gluten","Helvetica", "sans-serif";
+    font-size: 4em;
+    margin-top: 10px;
+}
+
+.river {
+    background-color: #eeabc4;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.river img {
+    box-shadow: 5px 5px 10px #6f7364;
+    grid-column: 1/6;
+    grid-row: 2/4;
+    margin: 0 0 0 1rem;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.river p {
+    padding: 0 70px;
+    grid-column: 7/13;
+    grid-row: 2/4;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.rvr-btn {
+    background-color: #161925;
+    color: white;
+    grid-row: 4;
+    grid-column: 1/13;
+    justify-self: center;
+    margin: 0 0 50px 0;
+}
+
+.river h2{
+    color: white;
+    font-family: "Gluten","Helvetica", "sans-serif";
+    font-size: 1.7em;
+    grid-column: 1/13;
+    grid-row: 1;
+    justify-self: center;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 900px) {
