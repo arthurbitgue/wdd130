@@ -4,7 +4,7 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@500&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #dd6e42;
+  --primary-color: #6f7364;
   --secondary-color: #e8dab2;
   --accent1-color: #4f6d7a;
   --accent2-color: #c0d6df;
@@ -21,7 +21,7 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #4f6d7a; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #eaeaea; /* paragraph text on a colored background */ 
   --paragraph-background-color: #4f6d7a;
-  --nav-link-color: #dd6e42;
+  --nav-link-color: #6f7364;
   --nav-background-color: #c0d6df;
   --nav-hover-link-color: #eaeaea;
   --nav-hover-background-color: #4f6d7a;
