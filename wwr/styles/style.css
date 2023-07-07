@@ -22,6 +22,8 @@ main section {
 #background {
     height: 725px;
     background-color: #eeabc4;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 body {
     background-color: #9dbebb;
@@ -168,10 +170,6 @@ nav {
 .rapids-card {
     grid-column: 8/10;
     grid-row: 2/3;
-}
-#background {
-    grid-column: 1/11;
-    grid-row: 4/9;
 }
 .mountains {
     grid-column: 2/7;

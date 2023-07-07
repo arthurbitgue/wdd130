@@ -49,19 +49,13 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    display: grid;
+    place-items: center;
 }
 header {
     background-color:#4f6d7a;
     display: grid;
     grid-template-columns: 150px auto;
-}
-.msg {
-    background-color: #6f7364;
-    line-height: 1.5em;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
 }
 footer {
     background-color: #4f6d7a;
@@ -109,7 +103,7 @@ h2 {
 }
 .home-title {
     color: #6f7364;
-    font-family: "Playfair Display","Helvetica", "sans-serif";
+    font-family: "Playfair Display";
     font-size: 4em;
 }
 h4 {
@@ -120,21 +114,38 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+#background {
+    height: 725px;
+    background-color: #eeabc4;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 3/10;
+    grid-row: 4/9;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .image {
-    margin-top: 100px;
-    float: left;
+    grid-column: 2/3;
+    grid-row: 5/8;
     border: 3px solid white;
     width: 500px;
-    margin-right: 30px;
-    margin-left: 30px;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 30px;
 }
 p {
-    text-align: left;
+    text-align: center;
     margin-right: 20px;
 }
-#picture {
-    margin-top: 20px;
+main {
+    margin-top: 15px;
+    
 }
 
 @media screen and (max-width: 900px) {
