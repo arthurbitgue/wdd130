@@ -40,7 +40,7 @@ nav a:hover {
     border-radius: 5px;
 }
 .Hire_Me:hover {
-    background-color: #4f6d7a;
+    background-color: #161925;
     color: White;
 }
 body {
@@ -129,6 +129,7 @@ h4 {
     box-shadow: 5px 5px 10px #6f7364;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 30px;
 }
 .image {
     grid-column: 2/3;
@@ -192,6 +193,26 @@ main {
     color: white;
 }
 
+/* Code for the My Skills subpage*/
+
+.program {
+    grid-column: 2/3;
+    grid-row: 5/8;
+    border: 3px solid white;
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 65px;
+}
+
+#background_skills{
+    height: 925px;
+    background-color: #e8dab2;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -220,7 +241,10 @@ main {
     #background {
         display: none;
     }
-    .image, .msg {
+    #background_skills {
+        display: none;
+    }
+    .image .program .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
