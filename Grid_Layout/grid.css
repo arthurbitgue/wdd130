@@ -1,0 +1,117 @@
+/******************************************************************************
+START grid layout extra credit
+******************************************************************************/
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: repeat(12, 1fr);
+  }
+
+  .grid1 {
+    display: grid;
+    padding: 2em 0;
+    background-color: lightgray;
+    align-items: center; /* Center text vertically in each row */
+  }
+  
+  .grid1 h1 {
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 1 / 2;
+  }
+  
+  .grid2 {
+    display: grid;
+    background-color: lightblue;
+    align-items: center; /* Center text vertically in each row */
+    grid-column: 1 / 2;
+    grid-auto-flow: dense;
+  }
+  
+  .grid2 h2 {
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 3 / 4;
+  }
+  
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: lightgreen;
+    align-items: center; /* Center text vertically in each row */
+    grid-column: 6 / 10;
+  }
+  
+  .grid3 h3 {
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 6 / 10;
+  }
+  
+  .grid4 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: lightpink;
+    grid-column: 4 / 11;
+    align-items: center; /* Center text vertically in each row */
+    
+  }
+  
+  .grid4 h2 {
+    grid-template-columns: repeat(12, 1fr);
+    grid-column: 6 / 9; 
+  }
+  
+  section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: lightyellow;
+    align-items: center; /* Center text vertically in each row */
+  }
+  
+  section h2 {
+    grid-column: 1 / -1;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: lightcoral;
+    padding: 1rem;
+  }
+  
+  fieldset {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+  
+  fieldset > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 2fr);
+    grid-gap: 0 1em;
+    align-items: center; /* Center text vertically in each row */
+  }
+  
+  label {
+    text-align: right;
+    grid-column: 1;
+  }
+  
+  input {
+    width: 100%;
+    grid-column: 2;
+  }
+  
+  button {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+  
+  section > div {
+    padding: 1rem;
+  }
+  
+  legend {
+    font-size: 20px;
+    font-weight: 700;
+  }

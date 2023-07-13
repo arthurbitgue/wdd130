@@ -147,6 +147,50 @@ main {
     margin-top: 15px;
     
 }
+ /*Code for dropdown nav bar */ 
+ .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    display: flex;
+    align-items: center;
+}
+
+.chevron {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    stroke: #000; /* Customize the color of the chevron */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e8dab2;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content:hover {
+    background-color: #e8dab2;
+    color: white;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
