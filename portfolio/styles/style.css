@@ -224,43 +224,59 @@ main {
 }
 
 
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
+/* Default styles */
+
+/* Your existing code */
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
     nav a {
-        display: block;
-        padding: 15px;
+      padding: 20px;
     }
     #hero {
-        margin-top: 0;
+      display: block;
+      margin-top: -50px;
+    }
+    #hero-box {
+      grid-row: 1/4;
     }
     #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
+      margin-top: 100px;
     }
     .home-title {
-        font-size: 25px;
-        color: #6f7364;
+      font-size: 2.5em;
     }
-    #background {
-        display: none;
+    h4 {
+      font-size: 1.2em;
     }
+    .home-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+    .image {
+      width: 100%;
+      margin-right: 0;
+    }
+    .msg {
+      grid-column: 1/3;
+      grid-row: 5/6;
+    }
+    .program {
+      grid-column: 1/3;
+      grid-row: 3/4;
+      margin-right: 0;
+    }
+    #background,
     #background_skills {
-        display: none;
+      height: 500px;
     }
-    .image .program .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-    footer {
-        margin-top: 25px;
-    }
-}
+  }
+  
+  /* Media query for screens between 768px and 1023px */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Add your responsive styles here */
+  }
+  
+  /* Media query for screens larger than 1023px */
+  @media (min-width: 1024px) {
+    /* Add your responsive styles here */
+  }
