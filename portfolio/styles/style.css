@@ -293,14 +293,11 @@ main {
     #background_skills {
         display: none;
     }
-    .image, .program, .msg {
+    .image, .program, .project1_pic, .Click_Here, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
         
-    }
-    .Click_Here {
-        display: none;
     }
     footer {
         margin-top: 25px;
