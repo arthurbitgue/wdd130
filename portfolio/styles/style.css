@@ -237,7 +237,7 @@ main {
     margin-bottom: 40px;
 }
 
-#projects {
+#background_projects {
     height: 925px;
     background-color: #e8dab2;
     grid-column: 1/11;
@@ -293,7 +293,10 @@ main {
     #background_skills {
         display: none;
     }
-    .image, .program, .project1_pic, .Click_Here, .msg {
+    #background_projects {
+        display: none;
+    }
+    .image, .program, .project1_pic, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
