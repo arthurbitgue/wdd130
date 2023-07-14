@@ -296,7 +296,7 @@ main {
     #background_projects {
         display: none;
     }
-    .image, .program, .project1_pic, .msg {
+    .image, .program, .project1_pic, .Click_Here, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
