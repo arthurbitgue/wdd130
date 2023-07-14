@@ -299,6 +299,9 @@ main {
         margin: 0 auto;
         
     }
+    .Click_Here {
+        display: none;
+    }
     footer {
         margin-top: 25px;
     }
