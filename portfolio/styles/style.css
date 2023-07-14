@@ -225,59 +225,43 @@ main {
 
 
 @media screen and (max-width: 900px) {
-    #hero,
-    .home-grid {
-      display: block;
-      height: auto;
+    #hero, .home-grid {
+        display: block;
+        height: auto;
     }
-  
-    nav,
-    footer {
-      flex-direction: column;
+    nav, footer {
+        flex-direction: column;
     }
-  
     nav a {
-      display: block;
-      padding: 15px;
-      text-align: center;
+        display: block;
+        padding: 15px;
     }
-  
     #hero {
-      margin-top: 0;
+        margin-top: 0;
     }
-  
     #hero-msg {
-      margin-top: 0;
+        margin-top: 0;
     }
-  
     #hero-msg h4 {
-      display: none;
+        display: none;
     }
-  
     .home-title {
-      font-size: 25px;
-      color: #6f7364;
+        font-size: 25px;
+        color: #6f7364;
     }
-  
-    #background,
+    #background {
+        display: none;
+    }
     #background_skills {
-      display: none;
+        display: none;
     }
-  
-    .image,
-    .program,
-    .msg {
-      width: 80%;
-      margin: 0 auto;
+    .image, .program, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        
     }
-  
-    .image {
-      max-width: 500px;
-      margin-bottom: 20px;
-    }
-  
     footer {
-      margin-top: 25px;
-      text-align: center;
+        margin-top: 25px;
     }
-  }
+}
