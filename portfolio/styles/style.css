@@ -224,59 +224,60 @@ main {
 }
 
 
-/* Default styles */
-
-/* Your existing code */
-
-/* Media query for screens smaller than 768px */
-@media (max-width: 767px) {
-    nav a {
-      padding: 20px;
-    }
-    #hero {
-      display: block;
-      margin-top: -50px;
-    }
-    #hero-box {
-      grid-row: 1/4;
-    }
-    #hero-msg {
-      margin-top: 100px;
-    }
-    .home-title {
-      font-size: 2.5em;
-    }
-    h4 {
-      font-size: 1.2em;
-    }
+@media screen and (max-width: 900px) {
+    #hero,
     .home-grid {
-      grid-template-columns: 1fr 1fr;
+      display: block;
+      height: auto;
     }
-    .image {
-      width: 100%;
-      margin-right: 0;
+  
+    nav,
+    footer {
+      flex-direction: column;
     }
-    .msg {
-      grid-column: 1/3;
-      grid-row: 5/6;
+  
+    nav a {
+      display: block;
+      padding: 15px;
+      text-align: center;
     }
-    .program {
-      grid-column: 1/3;
-      grid-row: 3/4;
-      margin-right: 0;
+  
+    #hero {
+      margin-top: 0;
     }
+  
+    #hero-msg {
+      margin-top: 0;
+    }
+  
+    #hero-msg h4 {
+      display: none;
+    }
+  
+    .home-title {
+      font-size: 25px;
+      color: #6f7364;
+    }
+  
     #background,
     #background_skills {
-      height: 500px;
+      display: none;
     }
-  }
   
-  /* Media query for screens between 768px and 1023px */
-  @media (min-width: 768px) and (max-width: 1023px) {
-    /* Add your responsive styles here */
-  }
+    .image,
+    .program,
+    .msg {
+      width: 80%;
+      margin: 0 auto;
+    }
   
-  /* Media query for screens larger than 1023px */
-  @media (min-width: 1024px) {
-    /* Add your responsive styles here */
+    .image {
+      max-width: 500px;
+      margin-bottom: 20px;
+    }
+  
+    footer {
+      margin-top: 25px;
+      text-align: center;
+    }
   }
