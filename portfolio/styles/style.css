@@ -223,6 +223,44 @@ main {
     grid-row: 4/9;
 }
 
+/*code for my My Projects subpage */
+
+.project1_pic {
+    grid-column: 2/3;
+    grid-row: 5/8;
+    border: 3px solid white;
+    width: 400px;
+    height: 700px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-right: 65px;
+    transition: transform .5s;
+    margin-bottom: 40px;
+}
+
+#projects {
+    height: 925px;
+    background-color: #e8dab2;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+.Click_Here {
+    grid-column: 2/3;
+    grid-row: 7/9;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 200px;
+    background-color: white;
+    color: Black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.Click_Here:hover {
+    background-color: #161925;
+    color: White;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
