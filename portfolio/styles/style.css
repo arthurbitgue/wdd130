@@ -43,6 +43,19 @@ nav a:hover {
     background-color: #161925;
     color: White;
 }
+.Download_CV {
+    background-color: #e8dab2;
+    color: Black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.Download_CV:hover {
+    background-color: #161925;
+    color: White;
+}
 body {
     background-color: #c0d6df;
     font-family: Lato, Helvetica, sans-serif;
